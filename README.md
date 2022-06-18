@@ -16,8 +16,6 @@
     # criar configuração manualmente(home do termux)
         -  mkdir .config; cd .config; mkdir nvim
 
-    ##
-
     # navegar pra onde esta o init.vim
        - termux-setup-storage  # digite sim
        - cd /sdcard/Download
@@ -28,10 +26,10 @@
 ##
 
 4 - instalar os plugins
-     # digite: `nvim` e depois `:PlugInstall`
+  ## digite: `nvim` e depois `:PlugInstall`
  
-     # sair do nvim
-      - digite: ctrl x ou :q
+  ## sair do nvim
+    - digite: ctrl x ou :q
 
-     # instalar extensões
-      - digite: `:CocInstall coc-pyright`
+  ## instalar extensões
+    - digite: `:CocInstall coc-pyright`
