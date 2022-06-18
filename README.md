@@ -13,7 +13,12 @@
     termux-setup-storage 
 ###
  confirme usando ```sim```
-##### download do meu ```init.vim``` 
+####
+  #### download do ```plug.vim```
+    sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+ 
+##### download do meu ```init.vim```
     git clone https://github.com/SakutaOficial/nvim/; cd nvim; cp init.vim /data/data/com.termux/files/home/.config/nvim/
 #####
   ##### instalar os plugins digite nvim e depois ```PlugInstall``` e vá dando enter até terminar
