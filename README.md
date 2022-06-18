@@ -7,7 +7,7 @@
     pip install --upgrade pip; pip install wheel pynvim  neovim
 #####
   ##### crie a configuração manualmente necessária para funcionar na ```home``` do termux
-    mkdir .config; cd .config; mkdir nvim; cd nvim
+    mkdir .config; cd .config; mkdir nvim; cd
 ####
   ##### dê acesso de armazenamento no termux usando o comando:
     termux-setup-storage 
