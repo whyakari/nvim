@@ -2,11 +2,9 @@
 #####
   ##### atualizar pacotes e instalar dependências necessárias
     apt update; apt upgrade -y; pkg in nodejs-lts git python neovim -y
-
 #####
   ##### atualizar o pip e instalar dependências necessárias
     pip install --upgrade pip; pip install wheel pynvim  neovim
-
 #####
   ##### crie a configuração manualmente necessária para funcionar na ```home``` do termux
     mkdir .config; cd .config; mkdir nvim
@@ -15,17 +13,11 @@
     termux-setup-storage 
 ###
  confirme usando ```sim```
-
-##### vá para aonde baixou o ```init.vim```
-    cd /sdcard/Download
-##### copiar config para:
-    cp init.vim /data/data/com.termux/files/home/.config/nvim/
-
+##### download do meu ```init.vim``` 
+    git clone https://github.com/SakutaOficial/nvim/; cd nvim; cp init.vim /data/data/com.termux/files/home/.config/nvim/
 #####
   ##### instalar os plugins digite nvim e depois ```PlugInstall``` e vá dando enter até terminar
-
   ##### sair do nvim, digite: 
     ctrl x ou :q
-
   ##### instalar extensões, digite: 
     CocInstall coc-pyright
