@@ -1,8 +1,8 @@
 # minhas configurações do neovim
 
 1 -
-   • apt update; apt upgrade -y
-   • pkg in nodejs-lts git python neovim -y
+   - apt update; apt upgrade -y
+   - pkg in nodejs-lts git python neovim -y
 
 ##
 
@@ -25,8 +25,7 @@
 
 ##
 
-4 -
-    - instalar os plugins
+4 - instalar os plugins
      • digite: `nvim` e depois `:PlugInstall`
 
     - sair do nvim
