@@ -26,3 +26,6 @@
     ctrl x ou :q
   ##### instalar extensões, digite: 
     CocInstall coc-pyright
+####
+  #### github a qual usei como base
+   by- [outrageline](https://github.com/outragedline/neovim-termux)
