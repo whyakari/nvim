@@ -28,4 +28,4 @@
     CocInstall coc-pyright
 ####
   #### github a qual usei como base
-   by- [outrageline](https://github.com/outragedline/neovim-termux)
+   by- [@outragedline](https://github.com/outragedline/neovim-termux)
