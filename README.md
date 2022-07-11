@@ -27,5 +27,4 @@
   ##### instalar extensões, digite: 
     CocInstall coc-pyright
 ####
-  #### github a qual usei como base
-   by- [@outragedline](https://github.com/outragedline/neovim-termux)
+  #### github a qual usei como base [@outragedline](https://github.com/outragedline/neovim-termux)
