@@ -19,7 +19,7 @@
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
  
 ##### download do meu ```init.vim```
-    git clone https://github.com/SakutaOficial/nvim/; cd nvim; cp init.vim /data/data/com.termux/files/home/.config/nvim/; cd; rm -rf nvim
+    git clone https://github.com/Akaritsu/nvim/; cd nvim; cp init.vim /data/data/com.termux/files/home/.config/nvim/; cd; rm -rf nvim
 #####
   ##### instalar os plugins digite nvim e depois ```PlugInstall``` e vá dando enter até terminar
   ##### sair do nvim, digite: 
