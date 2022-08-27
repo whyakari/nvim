@@ -1,4 +1,5 @@
 call plug#begin()
+  Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
   Plug 'sainnhe/sonokai'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
@@ -21,9 +22,6 @@ call plug#begin()
 endif
 
 call plug#end()
-
-
-
 
 
 " Global Sets """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -57,9 +55,6 @@ filetype indent on   " Load the indent file for the file type, if any
 let mapleader = "-" " map leader to -
 
 
-
-
-
 " Themes """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 if exists('+termguicolors')
   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
@@ -72,15 +67,12 @@ let g:sonokai_enable_italic = 0
 let g:sonokai_disable_italic_comment = 1
 let g:sonokai_diagnostic_line_highlight = 1
 let g:sonokai_current_word = 'bold'
-colorscheme sonokai
+colorscheme tokyonight
 
 if (has("nvim")) "Transparent background. Only for nvim
     highlight Normal guibg=NONE ctermbg=NONE
     highlight EndOfBuffer guibg=NONE ctermbg=NONE
 endif
-
-
-
 
 
 " Remaps """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -98,8 +90,6 @@ nmap <leader>r :redo <CR>
 
 
 
-
-
 function! ViewHtmlText(url)
   if !empty(a:url)
     new
@@ -107,6 +97,7 @@ function! ViewHtmlText(url)
     execute 'r !elinks ' . a:url . ' -dump -dump-width ' . winwidth(0)
     1d
   endif
+
 endfunction
 " Save and view text for current html file.
 nnoremap <Leader>H :update<Bar>call ViewHtmlText(expand('%:p'))<CR>
@@ -115,9 +106,6 @@ vnoremap <Leader>h y:call ViewHtmlText(@@)<CR>
 " View text for URL from clipboard.
 " On Linux, use @* for current selection or @+ for text in clipboard.
 nnoremap <Leader>h :call ViewHtmlText(@+)<CR>
-
-
-
 
 
 " autocmd """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -132,21 +120,14 @@ endfunction
 autocmd! CursorHold,CursorHoldI * call HighlightWordUnderCursor()
 
 
-
-
-
 " AirLine """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
 
 
-
-
 " NerdTree """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nnoremap <C-a> :NERDTreeToggle<CR>
- 
-
 
 
 " Neovim """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -160,19 +141,11 @@ if (has("nvim"))
 endif
 
 
-
-
-
 " COC (conquer of completion) """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-
 
 
 " Add coc extensions here for autocomplete and other features
 let g:coc_global_extensions = [ ]
-
-
-
 
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
@@ -341,9 +314,6 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
-
-
-
 
 
 " Coc Snippets """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
