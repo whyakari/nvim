@@ -1,7 +1,8 @@
 ## Minha config do neovim.
-#### Requirement installed wget for download.
+
+#### Requirement: ```install wget:```
     pkg in -y wget
-> installed? next:
+> Installed? **next**:
 #### 🥥 Download:
     wget https://raw.githubusercontent.com/Akaritsu/nvim/main/download.sh && bash ./download.sh
-> by [outragedline 🇧🇷](https://github.com/outragedline/neovim-termux)
+> by for modifying  [outragedline 🇧🇷](https://github.com/outragedline/neovim-termux)
