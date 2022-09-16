@@ -1,7 +1,7 @@
 ### Minha config do neovim 
 > **Only users of Termux!** do not try in Linux(__Ubuntu__, etc..) because is different.
 
-#### Requirement: ```install wget:```
+#### Requirement: ```install wget.```
     pkg in -y wget
 > Installed? **next**:
 
