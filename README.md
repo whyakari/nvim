@@ -1,6 +1,6 @@
-## minhas configurações do neovim
+## minhas configurações do neovim.
 
-
+download: wget 
 ##
 ##
 ##
