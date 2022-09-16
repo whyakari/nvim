@@ -7,4 +7,4 @@
 
 #### 🥥 Download:
     wget https://raw.githubusercontent.com/Akaritsu/nvim/main/download.sh && bash ./download.sh
-> by for modifying  [outragedline 🇧🇷](https://github.com/outragedline/neovim-termux)
+> made by and thanks to for modifying  [outragedline 🇧🇷](https://github.com/outragedline/neovim-termux)
