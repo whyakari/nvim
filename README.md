@@ -8,6 +8,6 @@
 #### 🥥 Download (for termux):
     wget https://raw.githubusercontent.com/AkariOficial/nvim/main/download.sh && bash ./download.sh
 #### 🦠 Download (for linux):
-    wget https://raw.githubuser.content.com/AkariOficial/nvim/main/linux.sh && bash ./linux.sh
+    wget https://raw.githubusercontent.com/AkariOficial/nvim/main/linux.sh && bash ./linux.sh
 
 > by and thanks to modifying:<br>[outragedline 🇧🇷](https://github.com/outragedline/neovim-termux)
