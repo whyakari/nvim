@@ -2,8 +2,16 @@
 > **Only users of Termux!** do not try in Linux(__Ubuntu__, etc..) because is different.
 
 #### Requirement: ```install wget.```
-    pkg in -y wget
-> Installed? **next**:
+
+##### In Termux:
+     pkg in -y wget
+> ok 
+##### In Linux (**Ubuntu**):
+     apt install -y wget
+> ok
+##### In Linux (**Arch and Derivads**):
+     pacman -S wget
+> ok
 
 #### 🥥 Download (for termux):
     wget https://raw.githubusercontent.com/AkariOficial/nvim/main/download.sh && bash ./download.sh
