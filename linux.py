@@ -31,6 +31,8 @@ for distrosUbuntu in baseUbuntu["derived"]:
 
     except Exception as e:
         print("error, problaby is using termux.")
+        system('''pacman -Syu; pacman -Syu nodejs-lts-gallium git python neovim && pip install --upgrade pip; pip install wheel; pip install pynvim neovim && mkdir .config; cd .config; mkdir nvim; cd && sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim' && git clone https://github.com/AkariOficial/nvim/; cd nvim; cp init.vim /root/.config/nvim/; cd; rm -rf nvim''')
         quit()
 
 
