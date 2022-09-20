@@ -1,17 +1,14 @@
 ### Minha config do neovim 
-> **Only users of Termux!** do not try in Linux(__Ubuntu__, etc..) because is different.
+> **Only users of Termux <br> and Proot-Distro!** <br> do not try in Linux(__Ubuntu__, etc..) because process is quite different.
 
 #### Requirement: ```install wget.```
 
-##### In Termux:
-     pkg in -y wget
-> ok 
-##### In Linux (**Ubuntu**):
-     apt install -y wget
-> ok
-##### In Linux (**Arch and Derivads**):
-     pacman -S wget
-> ok
+###### In Termux:
+>     pkg in -y wget<br>
+###### In Linux (**Ubuntu**):
+>     apt install -y wget
+###### In Linux (**Arch**):
+>     pacman -S wget
 
 #### 🥥 Download (for termux):
     wget https://raw.githubusercontent.com/AkariOficial/nvim/main/download.sh && bash ./download.sh
