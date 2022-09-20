@@ -4,11 +4,11 @@
 #### Requirement: ```install wget.```
 
 ###### In Termux:
->     pkg in -y wget<br>
+>   pkg in -y wget<br>
 ###### In Linux (**Ubuntu**):
->     apt install -y wget
+>   apt install -y wget 
 ###### In Linux (**Arch**):
->     pacman -S wget
+>   pacman -S wget
 
 #### 🥥 Download (for termux):
     wget https://raw.githubusercontent.com/AkariOficial/nvim/main/download.sh && bash ./download.sh
