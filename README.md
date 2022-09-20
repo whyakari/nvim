@@ -7,6 +7,7 @@
 
 > **Only users of Termux <br> and Proot-Distro!** <br> do not try in Linux(__Ubuntu__, etc..) because process is quite different.
 
+
 #### Requirement: install package ```wget```.
 
 ###### In Termux:
