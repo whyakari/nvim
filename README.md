@@ -20,6 +20,6 @@
 #### 🥥 Download (for termux):
     wget https://raw.githubusercontent.com/AkariOficial/nvim/main/download.sh && bash ./download.sh
 #### 🦠 Download (for linux ```Ubuntu``` and derived's.</br>```Arch``` and derived's):
-    wget https://raw.githubusercontent.com/AkariOficial/nvim/main/linux.py; python3 linux.py || python linux.py
+    wget https://raw.githubusercontent.com/AkariOficial/nvim/main/linux.py; python3 linux.py
 
 > by and thanks to modifying:<br>[outragedline 🇧🇷](https://github.com/outragedline/neovim-termux)
