@@ -21,10 +21,8 @@ for distrosUbuntu in baseUbuntu["derived"]:
 
         if distrosUbuntu in name:
             print(name + "System based on Ubuntu Detected.")
-            system(r'''sudo apt update; sudo apt upgrade -y; sudo apt install curl git python3 neovim -y; curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash && export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" && nvm install v16.2.0; pip install --upgrade pip; pip install wheel; pip install pynvim neovim; mkdir .config; cd .config; mkdir nvim; cd; sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'; git clone https://github.com/AkariOficial/nvim/; cd nvim; cp init.vim $HOME/.config/nvim/; cd; rm -rf nvim; rm linux.py; clear''')
+            system(r'''sudo apt update; sudo apt upgrade -y && sudo apt install curl git python3 -y; curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage chmod u+x nvim.appimage && sudo mv squashfs-root / sudo ln -s / squashfs-root/AppRun /usr/bin/nvim; curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash; export NVM_DIR="$HOME/.nvm"; [ -s "$NVM_DIR/nvm.sh" ]; \. "$NVM_DIR/nvm.sh"; [ -s "$NVM_DIR/bash_completion" ]; \. "$NVM_DIR/bash_completion"; nvm install v16.2.0 && pip install --upgrade pip; pip install wheel; pip install pynvim neovim; mkdir .config; cd .config; mkdir nvim; cd; sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'; git clone https://github.com/AkariOficial/nvim/; cd nvim; cp init.vim $HOME/.config/nvim/; cd; sudo rm -rf nvim; rm linux.py; clear;''')
             system("clear")
             system(r"""echo 'Received: ‘Distro not supported’.
 
