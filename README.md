@@ -11,7 +11,7 @@
 
 ###### In Termux:
 >   pkg in -y wget<br>
-###### In Linux (**Ubuntu**):
+###### In Linux (Ubuntu):
 >   apt install -y wget 
 ###### In Linux (**Arch**):
 >   pacman -S wget
