@@ -8,11 +8,11 @@ def baseds(**args):
 
 data = ["Ubuntu", "Debian", "Xubuntu", "Kubuntu", "Lubuntu"]
 data2 = ["Arch", "Manjaro"]
-
+data3 = ["alpine"]
 
 baseUbuntu = baseds(derived=data)
 baseArch = baseds(derived=data2)
-
+baseAlpine = baseds(derived=data3)
 
 for distrosUbuntu in baseUbuntu["derived"]:
     try:
@@ -56,3 +56,28 @@ If you believe what your is distro Supported, then contact-me in Telegram @Akari
     except Exception as e:
         print("error.")
         quit()
+
+
+for distroAlpine in baseAlpine["derived"]:
+    try:
+        name = open("/etc/issue").readline()
+        if distroAlpine in name:
+            print(name + "System on based Alpine Detected.")
+
+            system(r"""apk update; apk upgrade; apk add nodejs-lts git python3 py3-pip neovim; pip install --upgrade pip; pip install wheel;
+pip pynvim neovim; mkdir .config; cd .config; mkdir nvim; cd; sh -
+c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/auto
+load/plug.vim --create-dirs \
+>        https://raw.githubusercontent.com/junegunn/vim-plug/maste
+r/plug.vim'; git clone https://github.com/AkariOficial/nvim/; cd n
+vim; cp init.vim $HOME/.config/nvim/; cd; rm linux.py;""")
+
+            system("clear")
+            system(r"""echo 'Received: ‘Distro not supported'
+If you believe what your is distro Supported, then contact-me
+in Telegram @AkariOficial or https://t.me/AkariOficial .'""")
+
+    except Exception as e:
+        print("erorr.")
+        quit()
+
