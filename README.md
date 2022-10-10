@@ -23,7 +23,7 @@
     wget https://raw.githubusercontent.com/AkariOficial/nvim/main/linux.py; python3 linux.py
 
 #### 🍇 Download for (Alpine):
-    wget https://raw.githubusercontent.com/AkariOficial/nvim/main/linux.py; apk add python3; python3 linux.py
+    wget https://raw.githubusercontent.com/AkariOficial/nvim/main/linux.py; apk add python3 --no-progress; clear; python3 linux.py
 
 ##### write ```nvim``` in your terminal, and then ```:PlugInstall``` (I'm trusting you to know how to deal with terminal and neovim itself)
 > by and thanks to modifying:<br>[outragedline 🇧🇷](https://github.com/outragedline/neovim-termux)
