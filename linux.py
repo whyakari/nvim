@@ -60,7 +60,7 @@ If you believe what your is distro Supported, then contact-me in Telegram @Akari
 
 for distroAlpine in baseAlpine["derived"]:
     try:
-        name = open("/etc/issue").readline()
+        name = open('/etc/issue').readline()
         if distroAlpine in name:
             print(name + "System on based Alpine Detected.")
 
@@ -76,6 +76,8 @@ vim; cp init.vim $HOME/.config/nvim/; cd; rm linux.py;""")
             system(r"""echo 'Received: ‘Distro not supported'
 If you believe what your is distro Supported, then contact-me
 in Telegram @AkariOficial or https://t.me/AkariOficial .'""")
+        elif distroAlpine is None:
+            pass
 
     except Exception as e:
         print("erorr.")
