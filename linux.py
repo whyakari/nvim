@@ -7,7 +7,7 @@ def baseds(**args):
 
 
 data = ["Ubuntu", "Debian", "Xubuntu", "Kubuntu", "Lubuntu"]
-data2 = ["Arch", "Manjaro"]
+data2 = ["Arch", "Manjaro", "EndeavourOS"]
 data3 = ["alpine"]
 
 baseUbuntu = baseds(derived=data)
@@ -77,4 +77,3 @@ in Telegram @AkariOficial or https://t.me/AkariOficial .'""")
     except Exception as e:
         print("erorr.")
         quit()
-
