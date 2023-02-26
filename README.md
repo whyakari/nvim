@@ -24,3 +24,11 @@
 
 ##### write ```nvim``` in your terminal, and then ```:PlugInstall``` (I'm trusting you to know how to deal with terminal and neovim itself)
 > by and thanks to modifying:<br>[outragedline 🇧🇷](https://github.com/outragedline/neovim-termux)
+
+---
+
+> if you think my work is cool or want to help me, make a small donation <3
+#### send for btc address
+```
+ bc1qut3e70aakpdqgmc6ymva9tu92gme5g7w2h75hy
+```
