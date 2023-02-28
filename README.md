@@ -22,6 +22,13 @@
 #### 🦠 Download (for linux ```Ubuntu``` and derived's.</br>```Arch``` and derived's):
     wget https://raw.githubusercontent.com/AkariOficial/nvim/main/linux.py; python3 linux.py
 
+> if in case of errors, you can install nodejs with:
+```
+ curl -sL install-node.vercel.app/lts | bash
+```
+
+---
+
 ##### write ```nvim``` in your terminal, and then ```:PlugInstall``` (I'm trusting you to know how to deal with terminal and neovim itself)
 > by and thanks to modifying:<br>[outragedline 🇧🇷](https://github.com/outragedline/neovim-termux)
 
