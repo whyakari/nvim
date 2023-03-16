@@ -13,7 +13,7 @@
 ###### In Termux:
 >   pkg in -y wget<br>
 ###### In Linux (**Arch**):
->   pacman -S wget
+>   pacman -S wget --noconfirm
 
 #### 🥥 Download (for termux):
     wget https://raw.githubusercontent.com/AkariOficial/nvim/main/download.sh && bash ./download.sh
