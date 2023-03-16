@@ -1,4 +1,4 @@
-### My config of the neovim (Only Arch and Manjaro)
+### My config of the neovim (Only Arch and derived’s)
 
 <p float="left">
     <img src="https://user-images.githubusercontent.com/58480908/191308048-12ca1658-5185-4c47-8298-95accc888706.png" width=130/>
