@@ -19,6 +19,10 @@
 > pacman -S wget --noconfirm
 > ```
 
+-----
+
+## Configuration
+
 #### 🥥 Download for (Termux):
     wget https://raw.githubusercontent.com/AkariOficial/nvim/main/download.sh && bash ./download.sh
 #### 🦠 Download for (Archlinux):
