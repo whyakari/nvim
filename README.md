@@ -14,7 +14,7 @@
 > ```
 > pkg in -y wget<br>
 > ```
-###### In Linux (**Arch**):
+###### In Archlinux:
 > ``` 
 > pacman -S wget --noconfirm
 > ```
