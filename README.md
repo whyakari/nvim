@@ -12,7 +12,7 @@
 
 ###### In Termux:
 > ```
-> pkg in -y wget<br>
+> pkg in -y wget
 > ```
 ###### In Archlinux:
 > ``` 
