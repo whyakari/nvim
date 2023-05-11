@@ -8,7 +8,7 @@
 > **Only users of Termux <br> and Proot-Distro!** <br> do not try in (__Ubuntu__, etc..) because process is quite different.
 
 
-#### Requirement: install package ```wget```.
+### Requirements: install package ```wget```.
 
 ###### In Termux:
 > ```
@@ -24,7 +24,7 @@
 ## Configuration
 
 #### 🥥 Download for (Termux):
-    wget https://raw.githubusercontent.com/AkariOficial/nvim/main/download.sh && bash ./download.sh
+    wget https://github.com/AkariOficial/nvim/raw/main/termux/download.sh && bash ./download.sh
 #### 🦠 Download for (Archlinux):
     wget https://raw.githubusercontent.com/AkariOficial/nvim/main/linux.py; python3 linux.py
 
