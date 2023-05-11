@@ -11,9 +11,13 @@
 #### Requirement: install package ```wget```.
 
 ###### In Termux:
->   pkg in -y wget<br>
+> ```
+> pkg in -y wget<br>
+> ```
 ###### In Linux (**Arch**):
->   pacman -S wget --noconfirm
+> ``` 
+> pacman -S wget --noconfirm
+> ```
 
 #### 🥥 Download for (Termux):
     wget https://raw.githubusercontent.com/AkariOficial/nvim/main/download.sh && bash ./download.sh
