@@ -18,6 +18,7 @@
 > ``` 
 > pacman -S wget --noconfirm
 > ```
+> it is no longer necessary to install wget.
 
 -----
 
@@ -26,7 +27,7 @@
 #### 🥥 Download for (Termux):
     wget https://github.com/AkariOficial/nvim/raw/main/termux/download.sh && bash ./download.sh
 #### 🦠 Download for (Archlinux):
-    wget https://raw.githubusercontent.com/AkariOficial/nvim/main/linux.py; python3 linux.py
+    ....
 
 > if in case of errors, you can install nodejs with:
 ```
