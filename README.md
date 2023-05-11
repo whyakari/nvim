@@ -15,9 +15,9 @@
 ###### In Linux (**Arch**):
 >   pacman -S wget --noconfirm
 
-#### 🥥 Download (for termux):
+#### 🥥 Download for (Termux):
     wget https://raw.githubusercontent.com/AkariOficial/nvim/main/download.sh && bash ./download.sh
-#### 🦠 Download (for ```Arch```):
+#### 🦠 Download for (Archlinux):
     wget https://raw.githubusercontent.com/AkariOficial/nvim/main/linux.py; python3 linux.py
 
 > if in case of errors, you can install nodejs with:
