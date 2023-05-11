@@ -15,9 +15,6 @@
 > pkg in -y wget
 > ```
 ##### In Archlinux:
-> ``` 
-> pacman -S wget --noconfirm
-> ```
 > **it is no longer necessary to install wget.**
 
 -----
