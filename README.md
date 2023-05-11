@@ -1,4 +1,4 @@
-### My config of the neovim
+## My config of the neovim
 
 <p float="left">
     <img src="https://user-images.githubusercontent.com/58480908/191308048-12ca1658-5185-4c47-8298-95accc888706.png" width=130/>
@@ -8,17 +8,17 @@
 > **Only users of Termux <br> and Proot-Distro!** <br> do not try in (__Ubuntu__, etc..) because process is quite different.
 
 
-### Requirements: install package ```wget```.
+### Require package ```wget``` (Termux users)
 
-###### In Termux:
+##### In Termux:
 > ```
 > pkg in -y wget
 > ```
-###### In Archlinux:
+##### In Archlinux:
 > ``` 
 > pacman -S wget --noconfirm
 > ```
-> it is no longer necessary to install wget.
+> **it is no longer necessary to install wget.**
 
 -----
 
