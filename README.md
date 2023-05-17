@@ -10,12 +10,12 @@ Distros supporteds
   2. Archlinux (arm64/x8_64)
 
 
-### Require package ```wget``` (Termux users)
-
-1. In Termux:
-    ```shell
+##### Require package ```wget``` (Termux users)
+  1. In Termux:
+  ```shell
     pkg in -y wget
-    ```
+  ```
+
 -----
 
 ## Configuration
