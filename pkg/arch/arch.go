@@ -2,6 +2,7 @@ package arch
 
 import (
 	"os/exec"
+	"strings"
 )
 
 func IsArchLinux() bool {
@@ -9,13 +10,13 @@ func IsArchLinux() bool {
 	if err != nil {
 		return false
 	}
-	return string(out) == "arch"
+    return strings.TrimSpace(string(out)) == "archarm"
 }
 
 func ArchCommands() []string {
 	return []string{
-		"sudo pacman -Syu --noconfirm",
-		"sudo pacman -Syu npm sudo python-pip nodejs-lts-gallium git python neovim --noconfirm",
+		"pacman -Syu --noconfirm",
+		"pacman -Syu npm sudo python-pip nodejs-lts-gallium git python neovim --noconfirm",
 		"pip install --upgrade pip",
 		"pip install wheel",
 		"pip install pynvim neovim",
