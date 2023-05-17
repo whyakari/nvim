@@ -3,29 +3,14 @@ package main
 import (
 	"fmt"
 	"os/exec"
-    "github.com/AkariOficial/nvim/arch"
-    "github.com/AkariOficial/nvim/ubuntu"
+	"github.com/AkariOficial/nvim/pkg/arch"
+	"github.com/AkariOficial/nvim/pkg/ubuntu"
 )
 
-func isArchLinux() bool {
-	out, err := exec.Command("bash", "-c", "cat /etc/os-release | grep -oP '(?<=^ID=).+'").Output()
-	if err != nil {
-		return false
-	}
-	return string(out) == "archarm"
-}
-
-func isUbuntu() bool {
-	out, err := exec.Command("bash", "-c", "cat /etc/os-release | grep -oP '(?<=^ID=).+'").Output()
-	if err != nil {
-		return false
-	}
-	return string(out) == "ubuntu"
-}
-
 func main() {
-	if isArchLinux() {
-		cmds := arch.Commands()
+
+	if arch.IsArchLinux() {
+		cmds := arch.ArchCommands()
 
 		for _, cmd := range cmds {
 			err := exec.Command("bash", "-c", cmd).Run()
@@ -34,8 +19,8 @@ func main() {
 				return
 			}
 		}
-	} else if isUbuntu() {
-		cmds := ubuntu.Commands()
+	} else if ubuntu.IsUbuntu() {
+		cmds := ubuntu.UbuntuCommands()
 
 		for _, cmd := range cmds {
 			err := exec.Command("bash", "-c", cmd).Run()
@@ -48,7 +33,5 @@ func main() {
 		fmt.Println("Sistema operacional não suportado.")
 		return
 	}
-
 	fmt.Println("Configuração concluída com sucesso.")
 }
-
