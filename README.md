@@ -21,7 +21,7 @@
 #### 🥥 Download for (Termux):
     wget https://github.com/AkariOficial/nvim/raw/main/termux/download.sh && bash ./download.sh
 #### 🦠 Download for (Archlinux):
-   You can read this doc in:
+   You can read this doc in: <br>
    **[<kbd> <br> portuguese <br> </kbd>](https://github.com/AkariOficial/nvim/blob/main/tests/pt_br.md)**&emsp;**[<kbd> <br> English <br> </kbd>]()**
 
 > if in case of errors, you can install nodejs with:
