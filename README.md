@@ -6,6 +6,7 @@
 </p> 
 
 Distros supporteds
+  0. Termux (arm64)
   1. Ubuntu (arm64/x8_64)
   2. Archlinux (arm64/x8_64)
 
