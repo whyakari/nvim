@@ -8,7 +8,6 @@ import (
 func UbuntuCommands() []string {
 	return []string{
 		"apt update",
-		"apt upgrade -y",
 		"apt install -y npm python3-pip nodejs git python3-neovim",
 		"pip install --upgrade pip",
 		"pip install wheel",
@@ -27,6 +26,6 @@ func IsUbuntu() bool {
 	if err != nil {
 		return false
 	}
-	return strings.TrimSpace(string(out)) == "ubuntu"
+    return strings.TrimSpace(string(out)) == "ubuntu"
 }
 
