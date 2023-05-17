@@ -5,17 +5,6 @@ import (
 	"strings"
 )
 
-func UpdateSystem() error {
-	cmd := exec.Command("sudo", "apt-get", "update")
-	err := cmd.Run()
-	if err != nil {
-		return err
-	}
-
-	cmd = exec.Command("sudo", "apt-get", "upgrade", "-y")
-	return cmd.Run()
-}
-
 func UbuntuCommands() []string {
 	return []string{
 		"sudo apt-get update",
@@ -33,7 +22,7 @@ func UbuntuCommands() []string {
 	}
 }
 
-func isUbuntu() bool {
+func IsUbuntu() bool {
 	out, err := exec.Command("bash", "-c", "cat /etc/os-release | grep -oP '(?<=^ID=).+'").Output()
 	if err != nil {
 		return false

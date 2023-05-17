@@ -4,12 +4,7 @@ import (
 	"os/exec"
 )
 
-func UpdateSystem() error {
-	cmd := exec.Command("sudo", "pacman", "-Syu", "--noconfirm")
-	return cmd.Run()
-}
-
-func isArchLinux() bool {
+func IsArchLinux() bool {
 	out, err := exec.Command("bash", "-c", "cat /etc/os-release | grep -oP '(?<=^ID=).+'").Output()
 	if err != nil {
 		return false
