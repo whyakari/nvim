@@ -10,13 +10,10 @@
 
 ### Require package ```wget``` (Termux users)
 
-##### In Termux:
-> ```
-> pkg in -y wget
-> ```
-##### In Archlinux:
-> **it is no longer necessary to install wget.**
-
+1. In Termux:
+    ```shell
+    pkg in -y wget
+    ```
 -----
 
 ## Configuration
