@@ -5,10 +5,10 @@
     <img src="https://user-images.githubusercontent.com/58480908/191308172-69a9e8b0-f435-45a9-8383-f266f7812226.png" width=130/>
 </p> 
 
-Distros supporteds <br>
-  0. Termux (arm64)
-  1. Ubuntu (arm64/x8_64)
-  2. Archlinux (arm64/x8_64)
+Distros supporteds
+  1. Termux (arm64)
+  2. Ubuntu (arm64/x8_64)
+  3. Archlinux (arm64/x8_64)
 
 
 ##### Require package ```wget``` (Termux users)
