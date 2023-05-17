@@ -8,7 +8,7 @@ import (
 func UbuntuCommands() []string {
 	return []string{
 		"apt update",
-		"apt install -y npm python3-pip nodejs git python3-neovim",
+		"apt install -y curl npm python3-pip nodejs git python3-neovim",
 		"pip install --upgrade pip",
 		"pip install wheel",
 		"pip install pynvim neovim",
