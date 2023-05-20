@@ -25,7 +25,7 @@ Distros supporteds
     wget https://github.com/AkariOficial/nvim/raw/main/termux/download.sh && bash ./download.sh
 #### 🦠 Download for (Archlinux):
    You can read this doc in: <br>
-   **[<kbd> <br> portuguese <br> </kbd>](https://github.com/AkariOficial/nvim/blob/main/tests/pt_br.md)**&emsp;**[<kbd> <br> English <br> </kbd>]()**
+   **[<kbd> <br> portuguese <br> </kbd>](https://github.com/AkariOficial/nvim/blob/main/tests/pt_br.md)**&emsp;**[<kbd> <br> English <br> </kbd>](https://github.com/AkariOficial/nvim/blob/main/tests/en_us.md)**
 
 > if in case of errors, you can install nodejs with:
 ```
