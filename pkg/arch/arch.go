@@ -30,4 +30,3 @@ func ArchCommands() []string {
         "rm $HOME/*.tar.gz",
 	}
 }
-
