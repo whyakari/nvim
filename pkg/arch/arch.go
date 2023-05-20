@@ -26,6 +26,8 @@ func ArchCommands() []string {
 		"git clone -v https://github.com/AkariOficial/nvim $HOME/nvim",
 		"cp $HOME/nvim/init.vim $HOME/.config/nvim/",
 		"rm -rf $HOME/nvim",
+        "rm $HOME/README.md",
+        "rm $HOME/*.tar.gz",
 	}
 }
 
