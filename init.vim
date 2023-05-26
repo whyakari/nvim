@@ -26,6 +26,7 @@ call plug#end()
 
 " Global Sets """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax on            " Enable syntax highlight
+set guicursor=a-v-c-sm:block,a-n-i-ci-ve:ver25,r-cr-o:hor20 " Added new guicursor
 set nu               " Enable line numbers
 set tabstop=4        " Show existing tab with 4 spaces width
 set softtabstop=4    " Show existing tab with 4 spaces width
