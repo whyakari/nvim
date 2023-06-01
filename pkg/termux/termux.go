@@ -22,6 +22,7 @@ func TermuxCommands() []string {
 		"pip install wheel pynvim neovim",
 		"mkdir -p $HOME/.config/nvim",
 		"curl -fLo \"$HOME/.local/share/nvim/site/autoload/plug.vim\" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim",
+        "rm -rf $HOME/nvim",
 		"git clone -v https://github.com/AkariOficial/nvim $HOME/nvim",
 		"cp $HOME/nvim/init.vim $HOME/.config/nvim/",
         "cd $HOME",
