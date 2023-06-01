@@ -1,4 +1,4 @@
-package arch
+package termux
 
 import (
 	"os/exec"
