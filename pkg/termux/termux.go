@@ -18,7 +18,7 @@ func TermuxCommands() []string {
 		"apt update",
 		"apt upgrade -y",
 		"pkg install nodejs-lts git python neovim -y",
-		"pip install --upgrade pip",
+		"pip install --upgrade python-pip",
 		"pip install wheel pynvim neovim",
 		"mkdir -p $HOME/.config/nvim",
 		"curl -fLo \"$HOME/.local/share/nvim/site/autoload/plug.vim\" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim",
