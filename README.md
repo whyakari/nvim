@@ -32,6 +32,6 @@
 
 > if u think my work is cool, make a small donation <3
 #### send btc wallet
-```
-bc1qluadws0x8822urvhdufdeft4rs0ay290drlkpu
-```
+> ```
+> bc1qluadws0x8822urvhdufdeft4rs0ay290drlkpu
+> ```
