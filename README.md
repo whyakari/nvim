@@ -6,9 +6,9 @@
 </p> 
 
 Distros supporteds
-  1. Termux (arm64)
-  2. Ubuntu (arm64/x64)
-  3. Archlinux (arm64/x64)
+  1. Termux (aarch64/android)
+  2. Ubuntu (aarch64/x64)
+  3. Archlinux (aarch64/x64)
 
 
 ##### Require package ```wget``` (Termux users)
