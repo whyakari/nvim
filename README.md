@@ -29,9 +29,3 @@
 > (I'm trusting you to know how to deal with terminal and neovim itself)
 > Thx modifying:<br>[outragedline 🇧🇷](https://github.com/outragedline/neovim-termux)
 ---
-
-> if u think my work is cool, make a small donation <3
-#### send btc wallet
-> ```
-> bc1qluadws0x8822urvhdufdeft4rs0ay290drlkpu
-> ```
