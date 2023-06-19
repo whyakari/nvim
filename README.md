@@ -1,5 +1,6 @@
 ## My config of the neovim
 
+## Screenshots
 <p float="left">
     <img src="https://user-images.githubusercontent.com/58480908/191308048-12ca1658-5185-4c47-8298-95accc888706.png" width=130/>
     <img src="https://user-images.githubusercontent.com/58480908/191308172-69a9e8b0-f435-45a9-8383-f266f7812226.png" width=130/>
