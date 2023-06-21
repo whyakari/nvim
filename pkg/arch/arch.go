@@ -1,14 +1,9 @@
 package arch
 
 import (
-	"os"
 	"os/exec"
 	"strings"
 )
-
-func IsRootUser() bool {
-	return os.Geteuid() == 0
-}
 
 func IsArchLinux() bool {
 	out, err := exec.Command("bash", "-c", "cat /etc/os-release | grep -oP '(?<=^ID=).+'").Output()
@@ -18,8 +13,8 @@ func IsArchLinux() bool {
     return strings.TrimSpace(string(out)) == "archarm"
 }
 
-func ArchCommands(useSudo bool) []string {
-	commands := []string{
+func ArchCommands() []string {
+	return []string{
 		"pacman -Syu --noconfirm",
 		"pacman -Syu npm sudo python-pip nodejs-lts-gallium git python neovim --noconfirm",
 		"pip install --upgrade pip --break-system-packages",
@@ -35,12 +30,4 @@ func ArchCommands(useSudo bool) []string {
         "rm $HOME/README.md",
         "rm $HOME/*.tar.gz",
 	}
-
-    if useSudo {
-		// Adicione "sudo" antes de cada comando
-		for i, cmd := range commands {
-			commands[i] = "sudo " + cmd
-		}
-	}
-	return commands
 }
