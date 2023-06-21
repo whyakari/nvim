@@ -26,7 +26,7 @@ func main() {
 		for _, cmd := range cmds {
 			err := exec.Command("bash", "-c", cmd).Run()
 			if err != nil {
-				fmt.Println("Erro ao executar o comando:", cmd)
+				fmt.Println("Error when executing the command:", cmd)
 				return
 			}
         }
@@ -36,13 +36,13 @@ func main() {
         for _, cmd := range cmds {
             err := exec.Command("bash", "-c", cmd).Run()
             if err != nil {
-                fmt.Println("Erro ao executar o comando:", cmd)
+                fmt.Println("Error when executing the command:", cmd)
                 return
             }
         }
     } else {
-		fmt.Println("Sistema operacional não suportado.")
+		fmt.Println("Operating system not supported.")
 		return
 	}
-	fmt.Println("Configuração concluída com sucesso.")
+	fmt.Println("Setup completed successfully (:")
 }
