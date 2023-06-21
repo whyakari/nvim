@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"os/exec"
-	"github.com/AkariOficial/nvim/pkg/arch"
-    "github.com/AkariOficial/nvim/pkg/ubuntu"
-    "github.com/AkariOficial/nvim/pkg/termux"
+	"github.com/whyakari/nvim/pkg/arch"
+    "github.com/whyakari/nvim/pkg/ubuntu"
+    "github.com/whyakari/nvim/pkg/termux"
 )
 
 func main() {
