@@ -15,7 +15,7 @@ func IsArchLinux() bool {
 
 func ArchCommands() []string {
 	return []string{
-		"pacman -Syu --noconfirm",
+		"sudo pacman -Syu --noconfirm",
 		"pacman -Syu npm sudo python-pip nodejs-lts-gallium git python neovim --noconfirm",
 		"pip install --upgrade pip --break-system-packages",
 		"pip install wheel --break-system-packages",
