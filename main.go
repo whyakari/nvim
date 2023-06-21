@@ -16,7 +16,7 @@ func main() {
 		for _, cmd := range cmds {
 			err := exec.Command("bash", "-c", cmd).Run()
 			if err != nil {
-				fmt.Println("Erro ao executar o comando:", cmd)
+				fmt.Println("Error when executing the command:", cmd)
 				return
 			}
 		}
