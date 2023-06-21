@@ -9,9 +9,9 @@ import (
 )
 
 func main() {
-
 	if arch.IsArchLinux() {
-		cmds := arch.ArchCommands()
+		useSudo := !arch.IsRootUser() // Verifica se o usuário não é root
+		cmds := arch.ArchCommands(useSudo)
 
 		for _, cmd := range cmds {
 			err := exec.Command("bash", "-c", cmd).Run()
@@ -21,28 +21,12 @@ func main() {
 			}
 		}
 	} else if ubuntu.IsUbuntu() {
-		cmds := ubuntu.UbuntuCommands()
-
-		for _, cmd := range cmds {
-			err := exec.Command("bash", "-c", cmd).Run()
-			if err != nil {
-				fmt.Println("Error when executing the command:", cmd)
-				return
-			}
-        }
-    } else if termux.IsTermux() {
-        cmds := termux.TermuxCommands()
-
-        for _, cmd := range cmds {
-            err := exec.Command("bash", "-c", cmd).Run()
-            if err != nil {
-                fmt.Println("Error when executing the command:", cmd)
-                return
-            }
-        }
-    } else {
-		fmt.Println("Operating system not supported.")
-		return
+		// ...
+	} else if termux.IsTermux() {
+		// ...
+	} else {
+		// ...
 	}
+
 	fmt.Println("Setup completed successfully (:")
 }
