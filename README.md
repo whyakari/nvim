@@ -1,5 +1,15 @@
 ## My config of the neovim
 
+<p> 
+    <a href="https://github/downloads/whyakari/nvim/total"><img src="https://img.shields.io/github/downloads/whyakari/nvim/total?colorA=1e1e28&colorB=fedcba&style=for-the-badge&logo=starship style=for-the-badge"></a>
+    <a href="https://github.com/whyakari/nvim/stargazers"><img src="https://img.shields.io/github/stars/whyakari/nvim?colorA=1e1e28&colorB=c9cbff&style=for-the-badge&logo=starship style=for-the-badge"></a>
+    <a href="https://github.com/whyakari/nvim/issues"><img src="https://img.shields.io/github/issues/whyakari/nvim?colorA=1e1e28&colorB=dd577a&style=for-the-badge"></a>
+    <a href="https://github.com/whyakari/nvim/contributors"><img src="https://img.shields.io/github/contributors/whyakari/nvim?colorA=1e1e28&colorB=b0e0e6&style=for-the-badge"></a>
+    <a href="https://github.com/whyakari/nvim/releases/tag/latest">
+  <img src="https://img.shields.io/github/v/release/whyakari/nvim?colorA=1e1e28&colorB=9595ff&style=for-the-badge&logo=starship style=for-the-badge"></a>
+
+</p>
+
 ## Screenshots
 <p float="left">
     <img src="https://user-images.githubusercontent.com/58480908/191308048-12ca1658-5185-4c47-8298-95accc888706.png" width=130/>
