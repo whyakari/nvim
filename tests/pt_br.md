@@ -6,7 +6,7 @@ Para instalar o neovim (baseado na minha configuração) siga esses passos
    ```shell
    wget https://github.com/whyakari/nvim/releases/download/v0.6.1/nvim-v0.6.1-linux-arm64.tar.gz
    ```
-3. Extraia o arquivo baixado usando o > `tar`:
+3. Extraia o arquivo baixado usando o `tar`:
      ```shell
     tar -xznf nvim-v0.6.1-linux-arm64.tar.gz
     ```
