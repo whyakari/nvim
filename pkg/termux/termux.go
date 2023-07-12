@@ -1,6 +1,7 @@
 package termux
 
 import (
+	"fmt"
 	"os/exec"
 	"strings"
 )
@@ -14,6 +15,9 @@ func IsTermux() bool {
 }
 
 func TermuxCommands() []string {
+
+    fmt.Println("Installing setup of the neovim, wait...")
+
 	return []string{
 		"apt update",
 		"pkg install nodejs-lts git python neovim -y",
