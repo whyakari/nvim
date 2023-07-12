@@ -16,7 +16,6 @@ func IsTermux() bool {
 func TermuxCommands() []string {
 	return []string{
 		"apt update",
-		"apt upgrade -y",
 		"pkg install nodejs-lts git python neovim -y",
 		"pip install --upgrade python-pip --break-system-packages",
 		"pip install wheel pynvim neovim --break-system-packages",
