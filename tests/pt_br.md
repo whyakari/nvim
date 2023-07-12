@@ -3,11 +3,11 @@ Para instalar o neovim (baseado na minha configuração) siga esses passos
 ### (Aviso) Lembrando que, para instalar você baixa de acordo com sua GOARCH e GOOS:
 
 #### Support Version
-|Support Version (GOOS) | Architeture (GOARCH) |
-|-|-|
-Android/Termux | `android-arm64.tar.gz`
-Linux/Termux | `linux-arm64.tar.gz`
-Linux/PC | `linux-amd64.tar.gz`
+|GOARCH | Architecture | 64bits | 32bits
+|-|-|-|-|
+Android/Termux | `android` | **arm64** | no
+Linux/Termux | `linux` | **arm64** | no
+Linux/PC | `linux` | **amd64** | no
 --------------------
 
 1. Acesse os Releases: [https://github.com/whyakari/nvim/releases](https://github.com/whyakari/nvim/releases).
