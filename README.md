@@ -21,7 +21,7 @@
 - Termux ```(aarch64/android)```
 - Ubuntu ```(aarch64/x64)```
 - Archlinux ```(aarch64/x64)```
-
+> [more information](https://github.com/whyakari/nvim/blob/main/tests/pt_br.md#support-version)
 -----
 
 ## Configuration
