@@ -13,9 +13,9 @@ jobs:
     strategy:
       matrix:
         # build and publish in parallel: 
-        # linux/amd64, linux/arm64, android/amd64
+        # linux/amd64, android/arm64
         goos: [linux, android]
-        goarch: [amd64, arm64, arm]
+        goarch: [amd64, arm64]
     steps:
       - uses: actions/checkout@v3
       - run: |
