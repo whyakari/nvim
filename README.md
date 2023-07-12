@@ -1,6 +1,7 @@
 ## My config of the neovim
 
-<p> 
+<p>
+    <a href="https://github/whyakari/actions/workflow/status"><img src="https://img.shields.io/github/actions/workflow/status/whyakari/nvim/release.yml?colorA=1e1e28&colorB=b7bdf8&style=for-the-badge"></a>
     <a href="https://github/downloads/whyakari/nvim/total"><img src="https://img.shields.io/github/downloads/whyakari/nvim/total?colorA=1e1e28&colorB=fedcba&style=for-the-badge&logo=starship style=for-the-badge"></a>
     <a href="https://github.com/whyakari/nvim/stargazers"><img src="https://img.shields.io/github/stars/whyakari/nvim?colorA=1e1e28&colorB=c9cbff&style=for-the-badge&logo=starship style=for-the-badge"></a>
     <a href="https://github.com/whyakari/nvim/issues"><img src="https://img.shields.io/github/issues/whyakari/nvim?colorA=1e1e28&colorB=dd577a&style=for-the-badge"></a>
