@@ -17,7 +17,7 @@
     <img src="https://user-images.githubusercontent.com/58480908/191308172-69a9e8b0-f435-45a9-8383-f266f7812226.png" width=130/>
 </p> 
 
-### Distros supporteds
+### Architecture supporteds
 - Termux ```(aarch64/android)```
 - Ubuntu ```(aarch64/x64)```
 - Archlinux ```(aarch64/x64)```
@@ -26,7 +26,7 @@
 
 ## Configuration
 
-#### 🦠 Download for (ArchLinux/Ubuntu/Termux):
+#### 🦠 Download for (Arch/Ubuntu/Termux):
    You can read this doc in: <br>
    **[<kbd> <br> portuguese <br> </kbd>](https://github.com/AkariOficial/nvim/blob/main/tests/pt_br.md)**&emsp;**[<kbd> <br> English <br> </kbd>](https://github.com/AkariOficial/nvim/blob/main/tests/en_us.md)**
 
