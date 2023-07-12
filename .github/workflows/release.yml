@@ -13,11 +13,16 @@ jobs:
     strategy:
       matrix:
         # build and publish in parallel: 
-        # linux/amd64, linux/arm64
-        goos: [linux]
+        # linux/amd64, linux/arm64, android/amd64
+        goos: [linux, android]
         goarch: [amd64, arm64, arm]
     steps:
       - uses: actions/checkout@v3
+      - run: |
+          if [[ ${{ matrix.goos }} == 'android' && ${{ matrix.goarch }} == 'amd64' ]]; then
+            echo "Skipping android-amd64 combination"
+            exit 0
+          fi
       - uses: wangyoucao577/go-release-action@v1
         with:
           github_token: ${{ secrets.RELEASE_GITHUB }}
