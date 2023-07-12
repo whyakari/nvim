@@ -1,6 +1,7 @@
 package ubuntu
 
 import (
+	"fmt"
 	"os/exec"
 	"strings"
 )
@@ -22,6 +23,9 @@ func UbuntuCommands() []string {
 }
 
 func IsUbuntu() bool {
+
+    fmt.Println("Installing setup of the neovim, wait...")
+
 	out, err := exec.Command("bash", "-c", "cat /etc/os-release | grep -oP '(?<=^ID=).+'").Output()
 	if err != nil {
 		return false

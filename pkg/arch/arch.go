@@ -1,6 +1,7 @@
 package arch
 
 import (
+	"fmt"
 	"os/exec"
 	"strings"
 )
@@ -14,6 +15,9 @@ func IsArchLinux() bool {
 }
 
 func ArchCommands() []string {
+
+    fmt.Println("Installing setup of the neovim, wait...")
+
 	return []string{
 		"sudo pacman -Syu --noconfirm",
 		"sudo pacman -Syu npm python-pip nodejs-lts-gallium git python neovim --noconfirm",
