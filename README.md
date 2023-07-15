@@ -11,7 +11,7 @@
 
 </p>
 
-## Screenshots
+### Screenshots
 <p float="left">
     <img src="https://user-images.githubusercontent.com/58480908/191308048-12ca1658-5185-4c47-8298-95accc888706.png" width=130/>
     <img src="https://user-images.githubusercontent.com/58480908/191308172-69a9e8b0-f435-45a9-8383-f266f7812226.png" width=130/>
@@ -21,17 +21,16 @@
 - Termux ```(aarch64/android)```
 - Ubuntu ```(aarch64/x64)```
 - Archlinux ```(aarch64/x64)```
-> [more information](https://github.com/whyakari/nvim/blob/main/tests/pt_br.md#support-version)
+> [More Information](https://github.com/whyakari/nvim/blob/main/tests/pt_br.md#support-version)
 
-#### 🦠 Download for (Arch/Ubuntu/Termux):
-   You can read this doc in: <br>
+### Download
+   You can read this docs in <br>
    **[<kbd> <br> portuguese <br> </kbd>](https://github.com/whyakari/nvim/blob/main/tests/pt_br.md)**&emsp;**[<kbd> <br> english <br> </kbd>](https://github.com/whyakari/nvim/blob/main/tests/en_us.md)**
 
-#### Write ```nvim``` in ur terminal, and then ```:PlugInstall``` 
+### Write ```nvim``` in ur terminal, and then ```:PlugInstall``` 
     I'm trusting you to know 
     how to deal with terminal 
     and neovim itself.
-
 
 ### Credits
  - [outragedline](https://github.com/outragedline) by init.vim.
