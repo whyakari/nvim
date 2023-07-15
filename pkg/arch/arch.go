@@ -11,7 +11,7 @@ func IsArchLinux() bool {
 	if err != nil {
 		return false
 	}
-    return strings.TrimSpace(string(out)) == "archarm"
+    return strings.TrimSpace(string(out)) == "archarm" || strings.TrimSpace(string(out)) == "arch"
 }
 
 func ArchCommands() []string {
