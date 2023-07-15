@@ -22,22 +22,16 @@
 - Ubuntu ```(aarch64/x64)```
 - Archlinux ```(aarch64/x64)```
 > [more information](https://github.com/whyakari/nvim/blob/main/tests/pt_br.md#support-version)
------
-
-## Configuration
 
 #### 🦠 Download for (Arch/Ubuntu/Termux):
    You can read this doc in: <br>
-   **[<kbd> <br> portuguese <br> </kbd>](https://github.com/AkariOficial/nvim/blob/main/tests/pt_br.md)**&emsp;**[<kbd> <br> English <br> </kbd>](https://github.com/AkariOficial/nvim/blob/main/tests/en_us.md)**
+   **[<kbd> <br> portuguese <br> </kbd>](https://github.com/whyakari/nvim/blob/main/tests/pt_br.md)**&emsp;**[<kbd> <br> english <br> </kbd>](https://github.com/whyakari/nvim/blob/main/tests/en_us.md)**
 
-> if in case of errors, try can install nodejs:
-```bash
- curl -sL install-node.vercel.app/lts | bash
-```
+#### Write ```nvim``` in ur terminal, and then ```:PlugInstall``` 
+    I'm trusting you to know 
+    how to deal with terminal 
+    and neovim itself.
 
----
 
-##### Write ```nvim``` in ur terminal, and then ```:PlugInstall``` 
-> (I'm trusting you to know how to deal with terminal and neovim itself)
-> Thx modifying:<br>[outragedline 🇧🇷](https://github.com/outragedline/neovim-termux)
----
+### Credits
+ - [outragedline](https://github.com/outragedline) by init.vim.
