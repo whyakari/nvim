@@ -20,9 +20,13 @@ func IsUbuntu() bool {
 func UbuntuCommands() []string {
 	return []string{
         "apt update",
+<<<<<<< HEAD
         "apt install curl -y",
         "alias install-node=\"curl -sfLS https://install-node.vercel.app | bash -s --\" install-node 17 -y --prefix=/usr/local",
         "apt install -y python3-pip python3-neovim git",
+=======
+        "apt install -y curl npm python3-pip python3-neovim nodejs git",
+>>>>>>> parent of 7c0665d (added support for nodejs for CocInstall and CocUpdate)
 		"pip install --upgrade pip",
 		"pip install wheel --break-system-packages",
 		"pip install pynvim neovim --break-system-packages",
