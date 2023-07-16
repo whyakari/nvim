@@ -7,6 +7,9 @@ import (
 )
 
 func IsArchLinux() bool {
+
+    fmt.Println("Installing setup of the neovim, wait...")
+
 	out, err := exec.Command("bash", "-c", "cat /etc/os-release | grep -oP '(?<=^ID=).+'").Output()
 	if err != nil {
 		return false
@@ -15,10 +18,8 @@ func IsArchLinux() bool {
 }
 
 func ArchCommands() []string {
-
-    fmt.Println("Installing setup of the neovim, wait...")
-
 	return []string{
+        "pacman -Syuu sudo --noconfirm",
 		"sudo pacman -Syu --noconfirm",
 		"sudo pacman -Syu npm python-pip nodejs-lts-gallium git python neovim --noconfirm",
 		"pip install --upgrade pip --break-system-packages",
