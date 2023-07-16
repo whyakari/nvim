@@ -10,7 +10,7 @@ func UbuntuCommands() []string {
 	return []string{
 		"apt update",
 		"apt install -y curl npm python3-pip nodejs git python3-neovim",
-		"pip install --upgrade pip --break-system-packages",
+		"pip install --upgrade pip",
 		"pip install wheel --break-system-packages",
 		"pip install pynvim neovim --break-system-packages",
 		"mkdir -p $HOME/.config/nvim",
