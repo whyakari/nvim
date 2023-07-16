@@ -23,7 +23,6 @@ func UbuntuCommands() []string {
         "apt install curl -y",
         "curl -sfLS https://install-node.vercel.app | bash -s -- install-node 17 -y --prefix=/usr/local",
         "apt install -y python3-pip python3-neovim git",
-        "apt install -y npm python3-pip python3-neovim nodejs git",
         "pip install --upgrade pip",
         "pip install wheel --break-system-packages",
         "pip install pynvim neovim --break-system-packages",
