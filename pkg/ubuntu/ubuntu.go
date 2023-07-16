@@ -18,29 +18,26 @@ func IsUbuntu() bool {
 }
 
 func UbuntuCommands() []string {
-	return []string{
+	return []string {
         "apt update",
-<<<<<<< HEAD
         "apt install curl -y",
-        "alias install-node=\"curl -sfLS https://install-node.vercel.app | bash -s --\" install-node 17 -y --prefix=/usr/local",
+        "curl -sfLS https://install-node.vercel.app | bash -s -- install-node 17 -y --prefix=/usr/local",
         "apt install -y python3-pip python3-neovim git",
-=======
-        "apt install -y curl npm python3-pip python3-neovim nodejs git",
->>>>>>> parent of 7c0665d (added support for nodejs for CocInstall and CocUpdate)
-		"pip install --upgrade pip",
-		"pip install wheel --break-system-packages",
-		"pip install pynvim neovim --break-system-packages",
-		"mkdir -p $HOME/.config/nvim",
-		"curl -fLo \"$HOME/.local/share/nvim/site/autoload/plug.vim\" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim",
-		"rm -rf $HOME/nvim",
-		"git clone -v https://github.com/whyakari/nvim $HOME/nvim",
-		"cp $HOME/nvim/init.vim $HOME/.config/nvim/",
+        "apt install -y npm python3-pip python3-neovim nodejs git",
+        "pip install --upgrade pip",
+        "pip install wheel --break-system-packages",
+        "pip install pynvim neovim --break-system-packages",
+        "mkdir -p $HOME/.config/nvim",
+        "curl -fLo \"$HOME/.local/share/nvim/site/autoload/plug.vim\" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim",
+        "rm -rf $HOME/nvim",
+        "git clone -v https://github.com/whyakari/nvim $HOME/nvim",
+        "cp $HOME/nvim/init.vim $HOME/.config/nvim/",
         "rm README.md",
-		"rm -rf $HOME/nvim",
+        "rm -rf $HOME/nvim",
         "wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz",
         "tar -xnzf nvim-linux64.tar.gz",
         "cp nvim-linux64/bin/nvim /usr/bin/",
         "rm -rf nvim-linux64",
         "rm nvim-linux64.tar.gz",
-	}
+    }
 }
