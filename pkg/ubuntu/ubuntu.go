@@ -21,7 +21,7 @@ func UbuntuCommands() []string {
 	return []string{
         "apt update",
         "apt install curl -y",
-        "alias install-node='curl -sfLS https://install-node.vercel.app | bash -s --'",
+        "alias install-node=\"curl -sfLS https://install-node.vercel.app | bash -s --\"",
         "install-node 17 -y --prefix=/usr/local",
         "apt install -y curl python3-pip python3-neovim git",
 		"pip install --upgrade pip",
