@@ -6,6 +6,17 @@ import (
 	"strings"
 )
 
+func IsUbuntu() bool {
+
+    fmt.Println("Installing setup of the neovim, wait...")
+
+	out, err := exec.Command("bash", "-c", "cat /etc/os-release | grep -oP '(?<=^ID=).+'").Output()
+	if err != nil {
+		return false
+	}
+    return strings.TrimSpace(string(out)) == "ubuntu"
+}
+
 func UbuntuCommands() []string {
 	return []string{
 		"apt update",
@@ -21,15 +32,3 @@ func UbuntuCommands() []string {
 		"rm -rf $HOME/nvim",
 	}
 }
-
-func IsUbuntu() bool {
-
-    fmt.Println("Installing setup of the neovim, wait...")
-
-	out, err := exec.Command("bash", "-c", "cat /etc/os-release | grep -oP '(?<=^ID=).+'").Output()
-	if err != nil {
-		return false
-	}
-    return strings.TrimSpace(string(out)) == "ubuntu"
-}
-
