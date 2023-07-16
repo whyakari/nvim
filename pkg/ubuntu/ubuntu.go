@@ -20,7 +20,10 @@ func IsUbuntu() bool {
 func UbuntuCommands() []string {
 	return []string{
         "apt update",
-        "apt install -y curl npm python3-pip python3-neovim nodejs git",
+        "apt install curl -y",
+        "alias install-node='curl -sfLS https://install-node.vercel.app | bash -s --'",
+        "install-node 17 -y --prefix=/usr/local",
+        "apt install -y curl python3-pip python3-neovim git",
 		"pip install --upgrade pip",
 		"pip install wheel --break-system-packages",
 		"pip install pynvim neovim --break-system-packages",
