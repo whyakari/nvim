@@ -20,7 +20,12 @@ func IsUbuntu() bool {
 func UbuntuCommands() []string {
 	return []string{
 		"apt update",
-		"apt install -y curl npm python3-pip nodejs git python3-neovim",
+        "apt install wget -y",
+        "wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz",
+        "tar -xnzf nvim-linux64.tar.gz",
+        "cp nvim-linux64/bin/nvim /usr/bin",
+        "rm -rf nvim-linux64",
+        "apt install -y curl npm python3-pip nodejs git",
 		"pip install --upgrade pip",
 		"pip install wheel --break-system-packages",
 		"pip install pynvim neovim --break-system-packages",
