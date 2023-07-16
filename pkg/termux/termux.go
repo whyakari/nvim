@@ -7,6 +7,9 @@ import (
 )
 
 func IsTermux() bool {
+
+    fmt.Println("Installing setup of the neovim, wait...")
+
 	out, err := exec.Command("bash", "-c", "uname -o").Output()
 	if err != nil {
 		return false
@@ -15,9 +18,6 @@ func IsTermux() bool {
 }
 
 func TermuxCommands() []string {
-
-    fmt.Println("Installing setup of the neovim, wait...")
-
 	return []string{
 		"apt update",
 		"pkg install nodejs-lts git python neovim -y",
