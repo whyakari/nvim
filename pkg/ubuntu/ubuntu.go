@@ -20,11 +20,11 @@ func IsUbuntu() bool {
 func UbuntuCommands() []string {
 	return []string{
 		"apt update",
-        "apt install wget -y",
         "wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz",
         "tar -xnzf nvim-linux64.tar.gz",
-        "cp nvim-linux64/bin/nvim /usr/bin",
+        "cp nvim-linux64/bin/nvim /usr/bin/",
         "rm -rf nvim-linux64",
+        "rm nvim-linux64.tar.gz",
         "apt install -y curl npm python3-pip nodejs git",
 		"pip install --upgrade pip",
 		"pip install wheel --break-system-packages",
@@ -34,6 +34,7 @@ func UbuntuCommands() []string {
 		"rm -rf $HOME/nvim",
 		"git clone -v https://github.com/whyakari/nvim $HOME/nvim",
 		"cp $HOME/nvim/init.vim $HOME/.config/nvim/",
+        "rm README.md",
 		"rm -rf $HOME/nvim",
 	}
 }
