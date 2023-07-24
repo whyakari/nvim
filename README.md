@@ -13,9 +13,10 @@
 
 ### Screenshots
 <p float="left">
-    <img src="https://user-images.githubusercontent.com/58480908/191308048-12ca1658-5185-4c47-8298-95accc888706.png" width=130/>
-    <img src="https://user-images.githubusercontent.com/58480908/191308172-69a9e8b0-f435-45a9-8383-f266f7812226.png" width=130/>
-</p> 
+    <img src="https://github.com/whyakari/nvim/assets/58480908/a686ac3b-1f16-4394-8f12-11b2ad6a1088" width=130/>
+    <img src="https://github.com/whyakari/nvim/assets/58480908/660e91a8-84e7-4103-b05a-9165f7b8549d" width=130/>
+
+</p>
 
 ### Architecture supporteds
 - Termux ```(aarch64/android)```
