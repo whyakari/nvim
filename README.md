@@ -21,11 +21,11 @@
 - Termux ```(aarch64/android)```
 - Ubuntu ```(aarch64/x64)```
 - Archlinux ```(aarch64/x64)```
-> [More Information](https://github.com/whyakari/nvim/blob/main/tests/pt_br.md#support-version)
+> [More Information](https://github.com/whyakari/nvim/blob/main/docs/pt_br.md#support-version)
 
 ### Download
    You can read this docs in <br>
-   **[<kbd> <br> portuguese <br> </kbd>](https://github.com/whyakari/nvim/blob/main/tests/pt_br.md)**&emsp;**[<kbd> <br> english <br> </kbd>](https://github.com/whyakari/nvim/blob/main/tests/en_us.md)**
+   **[<kbd> <br> portuguese <br> </kbd>](https://github.com/whyakari/nvim/blob/main/docs/pt_br.md)**&emsp;**[<kbd> <br> english <br> </kbd>](https://github.com/whyakari/nvim/blob/main/docs/en_us.md)**
 
 ### Write ```nvim``` in ur terminal, and then ```:PlugInstall``` 
     I'm trusting you to know 
