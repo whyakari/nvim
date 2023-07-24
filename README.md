@@ -30,10 +30,16 @@
    You can read this docs in <br>
    **[<kbd> <br> portuguese <br> </kbd>](https://github.com/whyakari/nvim/blob/main/docs/pt_br.md)**&emsp;**[<kbd> <br> english <br> </kbd>](https://github.com/whyakari/nvim/blob/main/docs/en_us.md)**
 
-### Write ```nvim``` in ur terminal, and then ```:PlugInstall``` 
-    I'm trusting you to know 
+### Write ```nvim``` in ur terminal, and then the plugins will be downloaded automatically.
+    I'm trusting u to know 
     how to deal with terminal 
     and neovim itself.
+> No more typing 
+>    `:PlugInstall`
+>    `:PlugUpdate`
+>    `:CocUpdate` and `:CocInstall`
+> As it is no longer needed.
+> for more information on what I'm talking about, read the [Mason](https://github.com/williamboman/mason-lspconfig.nvim) and [Lazy](https://github.com/dundalek/lazy-lsp.nvim) documentation.
 
 ### Credits
  - [outragedline](https://github.com/outragedline) Thanks for the help with the setup for lsp/Lua
