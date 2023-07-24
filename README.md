@@ -36,4 +36,4 @@
     and neovim itself.
 
 ### Credits
- - [outragedline](https://github.com/outragedline) by init.vim.
+ - [outragedline](https://github.com/outragedline) Thanks for the help with the setup for lsp/Lua
