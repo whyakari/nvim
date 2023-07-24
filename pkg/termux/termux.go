@@ -20,14 +20,16 @@ func IsTermux() bool {
 func TermuxCommands() []string {
 	return []string{
 		"apt update",
-		"pkg install nodejs-lts git python neovim -y",
+		"pkg install libllvm lua clang rust nodejs-lts git python neovim -y",
 		"pip install --upgrade python-pip --break-system-packages",
 		"pip install wheel pynvim neovim --break-system-packages",
 		"mkdir -p $HOME/.config/nvim",
 		"curl -fLo \"$HOME/.local/share/nvim/site/autoload/plug.vim\" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim",
         "rm -rf $HOME/nvim",
 		"git clone -v https://github.com/whyakari/nvim $HOME/nvim",
-		"cp $HOME/nvim/init.vim $HOME/.config/nvim/",
+		"cp $HOME/nvim/init.lua $HOME/.config/nvim/",
+        "cp -r $HOME/nvim/lua $HOME/.config/nvim/",
+        "cp $HOME/nvim/lazy-lock.json $HOME/.config/nvim/",
         "cd $HOME",
 		"rm -rf $HOME/nvim",
 		"rm $HOME/README.md",
