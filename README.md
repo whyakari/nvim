@@ -18,6 +18,8 @@
 
 </p>
 
+> [More Screenshots](https://github.com/whyakari/nvim/blob/main/screenshots/README.md)
+
 ### Architecture supporteds
 - Termux ```(aarch64/android)```
 - Ubuntu ```(aarch64/x64)```
