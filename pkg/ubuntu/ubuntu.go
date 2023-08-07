@@ -36,7 +36,5 @@ func UbuntuCommands() []string {
         "rm README.md",
         "rm -rf $HOME/nvim",
         "sudo snap install nvim --classic",
-        "rm -rf nvim-linux64",
-        "rm nvim-linux64.tar.gz",
     }
 }
