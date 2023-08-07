@@ -35,9 +35,7 @@ func UbuntuCommands() []string {
         "cp $HOME/nvim/lazy-lock.json $HOME/.config/nvim/",
         "rm README.md",
         "rm -rf $HOME/nvim",
-        "wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz",
-        "tar -xnzf nvim-linux64.tar.gz",
-        "cp nvim-linux64/bin/nvim /usr/bin/",
+        "sudo snap install nvim --classic",
         "rm -rf nvim-linux64",
         "rm nvim-linux64.tar.gz",
     }
