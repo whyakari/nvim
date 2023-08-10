@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"os/exec"
 	"github.com/whyakari/nvim/pkg/arch"
-    "github.com/whyakari/nvim/pkg/ubuntu"
     "github.com/whyakari/nvim/pkg/termux"
 )
 
@@ -20,17 +19,7 @@ func main() {
 				return
 			}
 		}
-	} else if ubuntu.IsUbuntu() {
-		cmds := ubuntu.UbuntuCommands()
-
-		for _, cmd := range cmds {
-			err := exec.Command("bash", "-c", cmd).Run()
-			if err != nil {
-				fmt.Println("Error when executing the command:", cmd)
-				return
-			}
-        }
-    } else if termux.IsTermux() {
+	} else if termux.IsTermux() {
         cmds := termux.TermuxCommands()
 
         for _, cmd := range cmds {
