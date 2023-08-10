@@ -22,7 +22,7 @@
 
 ### Architecture supporteds
 - Termux ```(aarch64/android)```
-- Ubuntu ```(aarch64/x64)```
+- Ubuntu ```❌```
 - Archlinux ```(aarch64/x64)```
 > [More Information](https://github.com/whyakari/nvim/blob/main/docs/pt_br.md#support-version)
 
