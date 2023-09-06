@@ -17,6 +17,14 @@ jobs:
         goos: [linux, android]
         goarch: [amd64, arm64, arm]
     steps:
+
+      - name: Set up Go for ARM
+        if: matrix.goos == 'android' && matrix.goarch == 'arm'
+        run: |
+          export GOARCH=arm
+          export GOOS=android
+          export GOARM=7
+
       - uses: actions/checkout@v3
       - uses: wangyoucao577/go-release-action@v1
         with:
