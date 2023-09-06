@@ -17,11 +17,6 @@ jobs:
         goos: [linux, android]
         goarch: [amd64, arm64, 386]
     steps:
-     - name: Install GCC Multilib
-        run: |
-          sudo apt-get update
-          sudo apt-get install gcc-multilib -y
-
       - uses: actions/checkout@v3
       - uses: wangyoucao577/go-release-action@v1
         with:
