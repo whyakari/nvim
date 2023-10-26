@@ -22,7 +22,7 @@ func ArchCommands() []string {
 		"cd $HOME",
         "pacman -Syuu sudo --noconfirm",
 		"sudo pacman -Syu --noconfirm",
-		"sudo pacman -Syu gcc clang rust lua npm python-pip nodejs-lts-gallium git python neovim --noconfirm",
+		"pacman -Syu gcc clang rust lua npm python-pip nodejs git python neovim --noconfirm",
 		"pacman -S python-wheel --noconfirm",
 		"pacman -S python-pynvim python-neovim --noconfirm",
 		"mkdir -p $HOME/.config/nvim",
