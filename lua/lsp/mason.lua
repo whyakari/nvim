@@ -1,5 +1,5 @@
 local servers = {
-	"pylsp",
+	"pyright",
 	"bashls",
 	"gopls",
 	"rust_analyzer",
@@ -13,6 +13,7 @@ local debuggers = {
 }
 
 local null_ls = {
+	"autopep8",
 	"stylua",
 	"jq",
 	"rustfmt",
