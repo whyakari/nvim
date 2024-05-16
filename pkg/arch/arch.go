@@ -29,10 +29,11 @@ func ArchCommands() []string {
 		"curl -fLo \"$HOME/.local/share/nvim/site/autoload/plug.vim\" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim",
 		"git clone -v https://github.com/whyakari/nvim $HOME/nvim",
 		"cp $HOME/nvim/init.lua $HOME/.config/nvim/",
-		"cp -r $HOME/nvim/lua $HOME/.config/nvim/",
-		"cp $HOME/nvim/lazy-lock.json $HOME/.config/nvim/",
+        "cp -r $HOME/nvim/lua $HOME/.config/nvim/",
+        "cp $HOME/nvim/lazy-lock.json $HOME/.config/nvim/",
+        "cd $HOME",
 		"rm -rf $HOME/nvim",
-        "rm $HOME/README.md",
+		"rm $HOME/README.md",
         "rm $HOME/*.tar.gz",
 	}
 }
