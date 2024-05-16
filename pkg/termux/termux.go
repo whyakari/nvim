@@ -26,7 +26,6 @@ func TermuxCommands() []string {
 		"pkg in python-pynvim -y",
 		"mkdir -p $HOME/.config/nvim",
 		"curl -fLo \"$HOME/.local/share/nvim/site/autoload/plug.vim\" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim",
-        "rm -rf $HOME/nvim",
 		"git clone -v https://github.com/whyakari/nvim $HOME/nvim",
 		"cp $HOME/nvim/init.lua $HOME/.config/nvim/",
         "cp -r $HOME/nvim/lua $HOME/.config/nvim/",
