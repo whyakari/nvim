@@ -14,12 +14,12 @@ Linux/PC | `linux` | **amd64/x64** | no
 
 2. Escolha de acordo com sua arquitetura:
    ```shell
-   wget https://github.com/whyakari/nvim/releases/download/v0.1.2/example-v0.1.2-architecture-arch.tar.gz
+   wget example-v0.1.2-arch-arch.tar.gz
    ```
    
 3. Extraia o arquivo baixado com `tar`:
      ```shell
-    tar -xznf nvim-v0.1.2-architecture-arch.tar.gz
+    tar -xznf example-v0.1.2-arch-arch.tar.gz
     ```
 > Certifique-se de usar o nome correto.
 
