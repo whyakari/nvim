@@ -1,11 +1,11 @@
 To install the package according to your architecture, follow these steps:
 
-1. Access the Releases NVim on GitHub: [https://github.com/whyakari/nvim/releases](https://github.com/whyakari/nvim/releases).
+1. Access the Releases nvim on GitHub: [https://github.com/whyakari/nvim/releases/latest](https://github.com/whyakari/nvim/releases).
 
-2. Press the link or copy the package URL according to your architecture. For example, for Linux ARM64 architecture, use the following command to download:
+2. Press the link or copy the package URL according to your architecture:
 
    ```shell
-   wget https://github.com/whyakari/nvim/releases/download/v0.1-example.tar.gz
+   wget nvim-example.tar.gz
    ```
 3. Extract the downloaded file using the following command:
     ```shell
@@ -13,7 +13,7 @@ To install the package according to your architecture, follow these steps:
     ```
 > Be sure to replace the file name with the one that matches your architecture.
 
-4. Finally, run the following command to start the installation and configure NVim automatically:
+4. Finally, run the following command to start the installation:
     ```shell
     ./nvim
     ```
