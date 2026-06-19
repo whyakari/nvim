@@ -18,5 +18,6 @@ null_ls.setup({
 
 		-- linters / diagnostics binaries
 		diagnostics.tidy, -- XML
+		require("none-ls.diagnostics.eslint")
 	},
 })
